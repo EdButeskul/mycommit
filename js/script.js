@@ -52,6 +52,24 @@
 
 
 
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+
+const personalMoviBD = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+      b = prompt('Как вы его оцените?', ''),
+      c = prompt('Один из последних просмотренных фильмов?', ''),
+      d = prompt('Как вы его оцените?', '');
+        
+
+personalMoviBD.movies[a] = b;
+personalMoviBD.movies[c] = d;
 
         
       
